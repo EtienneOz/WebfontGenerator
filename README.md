@@ -9,7 +9,10 @@ Please apt-get those four dependencies:
 `ttfautohint`
 
 # Usage
-This is a **very, very alpha version**. So far, you can put your otf file in the `WebfontGenerator` directory, run `bash generator.bash`. A prompt will ask you the font name, fill in and check the new directory.
+This is a **very, very alpha version**. So far, you can :
+* put your otf file in the `WebfontGenerator` directory, 
+* `cd to/the/WebfontGenerator`
+* run `bash generator.bash`. A prompt will ask you the font name, fill in and check the new directory.
 
 # To do
 * Allow multiple files input
