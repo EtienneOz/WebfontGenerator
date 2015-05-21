@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://pixelsvsbytes.com/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="https://pixelsvsbytes.com/wp-content/themes/twentyfifteen/js/html5.js"></script>
+	<![endif]-->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>How to create perfect web-fonts in 3 steps | Pixels|Bytes</title>
+<link rel="alternate" type="application/rss+xml" title="Pixels|Bytes &raquo; Feed" href="https://pixelsvsbytes.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Pixels|Bytes &raquo; Comments Feed" href="https://pixelsvsbytes.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Pixels|Bytes &raquo; How to create perfect web-fonts in 3 steps Comments Feed" href="https://pixelsvsbytes.com/2013/11/how-to-create-perfect-web-fonts-in-3-steps/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/pixelsvsbytes.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.2"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://pixelsvsbytes.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='//fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='https://pixelsvsbytes.com/wp-content/themes/twentyfifteen/genericons/genericons.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css'  href='https://pixelsvsbytes.com/wp-content/themes/twentyfifteen_pvb/style.css?ver=4.2.2' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='https://pixelsvsbytes.com/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='https://pixelsvsbytes.com/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='https://pixelsvsbytes.com/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='https://pixelsvsbytes.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pixelsvsbytes.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://pixelsvsbytes.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='JS require() for browsers &#8211; better, faster, stronger' href='https://pixelsvsbytes.com/2013/02/js-require-for-browsers-better-faster-stronger/' />
+<link rel='next' title='Building a BeagleBone router' href='https://pixelsvsbytes.com/2015/05/building-a-beaglebone-router/' />
+<meta name="generator" content="WordPress 4.2.2" />
+<link rel='canonical' href='https://pixelsvsbytes.com/2013/11/how-to-create-perfect-web-fonts-in-3-steps/' />
+<link rel='shortlink' href='https://pixelsvsbytes.com/?p=906' />
+</head>
+
+<body class="single single-post postid-906 single-format-standard">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div id="sidebar" class="sidebar">
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-branding">
+										<p class="site-title"><a href="https://pixelsvsbytes.com/" rel="home">Pixels|Bytes</a></p>
+											<p class="site-description">Thoughts about coding.</p>
+									<button class="secondary-toggle">Menu and widgets</button>
+			</div><!-- .site-branding -->
+		</header><!-- .site-header -->
+
+			<div id="secondary" class="secondary">
+
+		
+		
+					<div id="widget-area" class="widget-area" role="complementary">
+				<aside id="nav_menu-3" class="widget widget_nav_menu"><div class="menu-pages-container"><ul id="menu-pages" class="menu"><li id="menu-item-1061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1061"><a href="https://pixelsvsbytes.com/about-me/">About me</a></li>
+<li id="menu-item-1096" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1096"><a href="https://twitter.com/letorbi">Follow me on Twitter</a></li>
+<li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054"><a href="https://pixelsvsbytes.com/about_me/">Write me an email</a></li>
+</ul></div></aside><aside id="linkcat-13" class="widget widget_links"><h2 class="widget-title">Projects</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="https://reds.io" title="Our free webapp framework for secure and distributed data storage in the cloud."><img src="https://pixelsvsbytes.com/wp-content/uploads/REDS-Logo-Text-right-pvb.png"  alt="REDS &#8211; reclaim your data"  title="Our free webapp framework for secure and distributed data storage in the cloud." /></a></li>
+<li><a href="https://flowynotes.com" title="The first REDS based webapp allows you to use digital notes like real paper notes."><img src="https://pixelsvsbytes.com/wp-content/uploads/Flowy-Notes-Logo-Text-right-pvb.png"  alt="Flowy Notes &#8211; natural note-taking"  title="The first REDS based webapp allows you to use digital notes like real paper notes." /></a></li>
+<li><a href="https://fontie.flowyapps.com" title="Fontie converts your desktop fonts into web fonts with anti-aliasing that works everywhere."><img src="https://pixelsvsbytes.com/wp-content/uploads/Fontie-Logo-Text-right-pvb.png"  alt="Fontie &#8211; the magic webfont generator"  title="Fontie converts your desktop fonts into web fonts with anti-aliasing that works everywhere." /></a></li>
+
+	</ul>
+</aside>
+<aside id="linkcat-2" class="widget widget_links"><h2 class="widget-title">Blogroll</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="https://chriscloverman.wordpress.com/" title="Chris writes about usabilty, marketing &amp; design">chriscloverman</a></li>
+<li><a href="https://blog.flowyapps.com" title="The latest news about our fancy little startup ;)">Flowy Apps News</a></li>
+<li><a href="http://blog.codinghorror.com/" title="Jeff Atwood writes about programming and human factors">Coding Horror</a></li>
+
+	</ul>
+</aside>
+<aside id="categories-3" class="widget widget_categories"><h2 class="widget-title">Categories</h2>		<ul>
+	<li class="cat-item cat-item-4"><a href="https://pixelsvsbytes.com/category/html_css/" >HTML &amp; CSS</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="https://pixelsvsbytes.com/category/http/" >HTTP</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="https://pixelsvsbytes.com/category/javascript/" >JavaScript</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="https://pixelsvsbytes.com/category/linux/" >Linux</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://pixelsvsbytes.com/category/projects/" >Projects</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="https://pixelsvsbytes.com/category/typography/" >Typography</a>
+</li>
+		</ul>
+</aside>			</div><!-- .widget-area -->
+		
+	</div><!-- .secondary -->
+
+	</div><!-- .sidebar -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+<article id="post-906" class="post-906 post type-post status-publish format-standard hentry category-html_css category-typography">
+	
+	<header class="entry-header">
+		<h1 class="entry-title">How to create perfect web-fonts in 3 steps</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Web-fonts are a hassle. Once you think that you&#8217;ve finally nailed it, whoops there comes another special case where all fonts are totally  [insert swearword of your choice here]. Same happened to me after my last post on how to create <a href="/2013/02/nice-web-fonts-for-every-browser/" title="Nice web-fonts for every browser">nice web-fonts for every browser</a>. The font I created following this howto worked in all of my test-cases, but soon after I had published the post several comments popped up that told me different. Some of these were only small glitches I could either ignore or fix easily, but in the end I had to admit that my proposed solution is at least incomplete. So I again went on a quest to find the best way to create perfect webfonts.</p>
+<p>This took me on a long an dangerous journey, but you might want to take the shortcut and use <a href="http://fontie.flowyapps.com">Fontie, the magic web-font generator</a>, instead. However, since you&#8217;re still reading I assume you want to know everything! So here my young fellows is my story on how to create webfonts that look good on any operations system and browser.<span id="more-906"></span></p>
+<h1>Prepare yourself</h1>
+<p>As with every big journey a good preparation is the insurance to come back happy and healthy. So let&#8217;s start: To create nice webfonts you need four tools:</p>
+<ul>
+<li><a href="http://fontforge.org/">Font Forge</a>: The open-source swiss army knife for font creation.</li>
+<li><a href="http://www.freetype.org/ttfautohint/">ttfautohint</a>: A neat little tool that makes your fonts look better.</li>
+<li><a href="http://eotfast.com/">eotfast</a>: A command-line TrueType to Embedded OpenType converter.</li>
+<li><a href="http://www.codedread.com/scour/">scour</a>: A python script to clean up Scalable Vector Graphics.</li>
+</ul>
+<p>Font Forge, ttfautohint and Python are available for Windows, OSX and Linux. eotfast is available for Windows only, but you can use <a href="https://code.google.com/p/ttf2eot/">ttf2eot</a> or wine on OSX and Linux instead, so this howto should work for everyone. For the rest of the howto I assume that you&#8217;ve installed the programs as well as some kind of command line.</p>
+<h1>Step 1: Create an optimized TrueType font</h1>
+<p>This one is pretty easy if you ignore the &#8220;optimized&#8221; in the headline. All you have to do is to open your font in Font Forge, press <code>CTRL+SHIFT+G</code>, select TrueType as format and save everything. Done. If you start with a Truetype font already, you can even ignore this step completely.</p>
+<p>But this howto is about creating perfect webfonts, right? ;) So we should not ignore the &#8220;optimized&#8221; here, but dip our toe a bit deeper into the waters of Font Forge:</p>
+<h2>Subsetting</h2>
+<p>Subsetting basically means that you only include the glyphs in the web-font that you actually use on your website. This can reduce the file-size of the final web-fonts dramatically so it&#8217;s a good idea to subset your font in general.</p>
+<p>To subset a font you first have to open it in Font Forge and select all glyph you want to have in your web-font. You can achieve this by holding <code>SHIFT</code> and clicking on the glyphs (in the default colorset selected glyph have a yellow background). When you&#8217;ve selected all glyphs you press <code>CTRL+ESC</code> to invert the selection and remove the now selected unwanted glyphs by clicking &#8220;Encoding&gt;Detach &amp; Remove Glyphs&#8221; in the menu. After this is done you can generate a TrueType file from the opened font by pressing <code>CTRL+SHIFT+G</code>.</p>
+<p>To make subsetting a bit simpler some guys at Google wrote <a href="https://code.google.com/p/googlefontdirectory/source/browse/tools/subset/subset.py">a Python-script calles subset.py</a> that automates subsetting based on Unicode ranges. Using the script is a bit tricky, but it&#8217;s actually pretty neat after you&#8217;ve mastered it. It is also the core of the <a href="http://fontie.flowyapps.com/">Fontie web-font generator</a> we use over at <a href="http://flowyapps.com/">Flowy Apps</a> to generate our webfonts, so you might just use Fontie if you&#8217;re not interesed in some command-line magic ;)</p>
+<h2>Font name fixes</h2>
+<p>If you also want to generate EOT font-files (you most probably want this ^^), you should also take care of the internal font-names. The EOT-standard requires the font-name to start with the family-name of the font (e.g. if the family-name is &#8220;MyFont&#8221;, the font-name &#8220;MyFont-regular&#8221; is ok, but &#8220;MyRegular&#8221; is not). You can edit the names in the &#8220;PS Names&#8221; section of Font Forge&#8217;s font-info dialog (press <code>CTRL+SHIFT+F</code>).</p>
+<h1>Step 2: Add additional hinting information</h1>
+<p>First of all: Take a deep breath. The first step might have been tricky, but this one is easy. What we&#8217;re doing here is to add some hinting information to the newly generated font. We have to do this, because hinting is THE key to have good looking fonts on windows.</p>
+<p>Without the hinting information the windows font-renderer won&#8217;t know what are the &#8220;important parts&#8221; of a font-face and therefore would have problems to render a clear (and readable) font on small sizes. The Mac and Linux font render engines are smarter and can calculate the hinting information automatically, so they don&#8217;t care about missing or bad hints.</p>
+<p>Fortunately Werner Lemberg started the project <a href="http://www.freetype.org/ttfautohint">ttfautohint</a>, which aims to auto-generate high-quality hinting information for web-fonts, and as far as I can tell it does a very good job. The tool offers some options to refine the results, but for me the default values worked well so far. Here is what we have to do to add some hinting information to our TrueType font from step 1:</p>
+<ol>
+<li>Open a console</li>
+<li><code>cd /path/to/font/from/step1</code></li>
+<li><code>ttfautohint step1font.ttf step2font.ttf</code></li>
+</ol>
+<p>Don&#8217;t be irritated if ttfautohint takes less than a second to complete. Auto-hinting is meant to be done on the fly when displaying a font, so it is really fast.</p>
+<p>That&#8217;s it for step 2. However, ttfautohint offers three different ways to hint the font and has some other features as well, so it might be good idea to play a bit around with the ttfautohint options, if you&#8217;re still not satisfied with font-rendering. Smashing Magazine took <a href="http://www.smashingmagazine.com/2012/04/24/a-closer-look-at-font-rendering/">a closer look at font rendering</a>, which might be of some help, but let&#8217;s continue with step 3 now&#8230;</p>
+<h1>Step 3: Generate the required webfonts</h1>
+<p>With all preparations done, the final step is to generate the font in all formats, which are needed to support all browsers. By name these are WOFF for Webkit- and Mozilla-based browsers, EOT for the Internet Explorer as well as TTF and SVG as fallback formats.</p>
+<p>You have the TTF-font already and WOFF and SVG can be generated easly with Font Forge (press CTRL+SHIFT+G, select the format and save). The SVG font however needs a bit cleanup afterwards (here we need python-scour):</p>
+<ol>
+<li>Open a console</li>
+<li><code>cd /path/to/font/from/step3</code></li>
+<li><code>python scour.py --indent=none --remove-metadata --quiet -i step3font.svg -o step3font_cleaned.svg</code></li>
+</ol>
+<p>The last format missing is EOT. Font Forge cannot generate EOT files, so I recommend to use eotfast, because it is able to create compressed EOT files. These are a lot smaller than the files generated by ttf2eot. The commands to generate an EOT file from a TrueType font are:</p>
+<ol>
+<li>Open a console</li>
+<li><code>cd /path/to/font/from/step2</code></li>
+<li><code>eotfast setp2font.ttf step3font.eot</code></li>
+</ol>
+<h1>Some finishing</h1>
+<p>Congratulation my young friend, you have mastered all challenges of this gruesome quest! You should now have a well-hinted and subsetted web-font in the formats TTF, WOFF, SVG and EOT. There are just two last things, which might be of some interest for you.</p>
+<h2>Cascading Style Sheets</h2>
+<p>The first thing is the CSS. The code in general is pretty straight forward, but you should take care of the order in which you mention the different formats to ensure that each browser gets the files it can handle best. I use a derivative of FontSquirrel&#8217;s CSS that looks like this:</p>
+<pre>@font-face {
+   font-family:'MyFont-regular';
+   src: url('step3font.eot');
+   src: url('step3font.eot?#iefix') format('embedded-opentype'),
+     url('step3font.woff') format('woff'),
+     url('step3font.ttf') format('truetype'),
+     url('step3font_cleaned.svg#MyFont-regular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+}</pre>
+<h2>Smooth fonts on Windows XP</h2>
+<p>The second thing is Windows XP. Even though XP has the capabilities to render smooth fonts with Microsoft’s own ClearType technology, it is not enabled by default – for whatever reason. This is no problem for IE and Firefox, but Chrome, Safari and Opera obey to the system settings, which can result in some pretty messed up fonts.</p>
+<p>Luckily this doesn&#8217;t count for SVG fonts, which always look smooth. Unfortunately they aren&#8217;t as crisp as their hinted counterparts if they are rendered on system that have font-smoothing enabled. Therefore I developed a small JavaScript called Font Smoothie, which switches to SVG fonts only if font-smoothing is actually disabled. You can find the code in <a href="https://gist.github.com/letorbi/5177771" target="_blank">my Font Smoothie GIST over at GitHub</a>.</p>
+<p>The usage is pretty easy. Just <a href="https://gist.github.com/letorbi/5177771/download">download the Font Smoothie script </a>and include it anywhere in your page:</p>
+<pre>&lt;script src="fontsmoothie.min.js" type="text/javascript"&gt;&lt;/script&gt;</pre>
+<h1><a id="shortcut"></a>The shortcut</h1>
+<p>For those of you who don&#8217;t have the time to go on the big quest of creating perfect webfonts, I&#8217;ve created <a href="http://fontie.flowyapps.com/">a magic webfont-generator called Fontie</a>. This does all the work of the steps above (and some additionally magic) 100% automatically and within seconds. Just upload a TTF or OTF file and Fontie will generate you a nice little webfont-package with everything you need.</p>
+<p>We use it on a daily basis for our work over at <a href="http://flowyapps.com/">Flowy Apps</a> and it works without any problems, but please feel free to post comments and bug reports here :)</p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://pixelsvsbytes.com/2013/11/how-to-create-perfect-web-fonts-in-3-steps/" rel="bookmark"><time class="entry-date published" datetime="2013-11-24T15:56:20+00:00">2013-11-24</time><time class="updated" datetime="2015-04-29T13:41:19+00:00">2015-04-29</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="https://pixelsvsbytes.com/author/letorbi/">Torben</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://pixelsvsbytes.com/category/html_css/" rel="category tag">HTML &amp; CSS</a>, <a href="https://pixelsvsbytes.com/category/typography/" rel="category tag">Typography</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<div id="comments" class="comments-area">
+
+			<h2 class="comments-title">
+			10 thoughts on &ldquo;How to create perfect web-fonts in 3 steps&rdquo;		</h2>
+
+		
+		<ol class="comment-list">
+					<li id="comment-11243" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://pixelsvsbytes.com/blog/2013/02/nice-web-fonts-for-every-browser/' rel='external nofollow' class='url'>Nice web-fonts for every browser | Pixels vs. Bytes</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-70494" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-70494" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://1.gravatar.com/avatar/486b258cf72d47a11b446791c937c1a7?s=56&#038;d=mm&#038;r=g' srcset='https://1.gravatar.com/avatar/486b258cf72d47a11b446791c937c1a7?s=112&amp;d=mm&amp;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn">lookfortheroot</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://pixelsvsbytes.com/2013/11/how-to-create-perfect-web-fonts-in-3-steps/#comment-70494">
+							<time datetime="2014-02-13T14:50:04+00:00">
+								2014-02-13 at 14:50							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Man, you are my lifesaver ^_^<br />
+Great article, all needed info in one place. Thank you!</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a class='comment-reply-link' href='/2013/11/how-to-create-perfect-web-fonts-in-3-steps/?replytocom=70494#respond' onclick='return addComment.moveForm( "div-comment-70494", "70494", "respond", "906" )' aria-label='Reply to lookfortheroot'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-70496" class="comment even thread-even depth-1">
+			<article id="div-comment-70496" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://0.gravatar.com/avatar/02c5eaa3e0b9706b96747e695eb3c872?s=56&#038;d=mm&#038;r=g' srcset='https://0.gravatar.com/avatar/02c5eaa3e0b9706b96747e695eb3c872?s=112&amp;d=mm&amp;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn">tymc</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://pixelsvsbytes.com/2013/11/how-to-create-perfect-web-fonts-in-3-steps/#comment-70496">
+							<time datetime="2014-02-18T23:24:30+00:00">
+								2014-02-18 at 23:24							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Thank you so much ! This is the most useful and easy-to-use web font generator i&#8217;ve seen so far. After spending days looking for solutions to my problems (subsetting, hinting, font smoothing&#8230;), you finally provide (gracefully) a one-shot solution. The other guy is right, you are a  lifesaver ! </p>
+<p>Oh, and the Win XP font smoother is a gift from heaven. </p>
+<p>Thank you</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a class='comment-reply-link' href='/2013/11/how-to-create-perfect-web-fonts-in-3-steps/?replytocom=70496#respond' onclick='return addComment.moveForm( "div-comment-70496", "70496", "respond", "906" )' aria-label='Reply to tymc'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-70508" class="comment odd alt thread-odd thread-alt depth-1 parent">
+			<article id="div-comment-70508" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://2.gravatar.com/avatar/524a675e7715a8118fb5ef14dd02078c?s=56&#038;d=mm&#038;r=g' srcset='https://2.gravatar.com/avatar/524a675e7715a8118fb5ef14dd02078c?s=112&amp;d=mm&amp;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn"><a href='http://www.madebym.me' rel='external nofollow' class='url'>Mirko</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://pixelsvsbytes.com/2013/11/how-to-create-perfect-web-fonts-in-3-steps/#comment-70508">
+							<time datetime="2014-04-21T19:58:02+00:00">
+								2014-04-21 at 19:58							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Hi,</p>
+<p>First of all I want to thank you for creating Fontie, it is really a great tool. I do have a few questions, if you don&#8217;t mind.</p>
+<p>I am converting a font that has many ligatures, alternates, swishes, etc. If I choose only Latin subsetting, I don&#8217;t get anything of that stuff, if I choose keep existing, I get what I want, but it increases the file size considerably, because the font is offering many languages by default.</p>
+<p>There is no way to just select the things I want, ligatures and all the fancy extras alone, with a basic Latin subset?</p>
+<p>My other question is what hinting option is the best to choose, I am not familiar with it:))?</p>
+<p>Thanks</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a class='comment-reply-link' href='/2013/11/how-to-create-perfect-web-fonts-in-3-steps/?replytocom=70508#respond' onclick='return addComment.moveForm( "div-comment-70508", "70508", "respond", "906" )' aria-label='Reply to Mirko'>Reply</a></div>			</article><!-- .comment-body -->
+<ol class="children">
+		<li id="comment-70510" class="comment byuser comment-author-letorbi bypostauthor even depth-2">
+			<article id="div-comment-70510" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://1.gravatar.com/avatar/714125bc3d4b4bea9cde4e04c8290194?s=56&#038;d=mm&#038;r=g' srcset='https://1.gravatar.com/avatar/714125bc3d4b4bea9cde4e04c8290194?s=112&amp;d=mm&amp;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn">Torben</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://pixelsvsbytes.com/2013/11/how-to-create-perfect-web-fonts-in-3-steps/#comment-70510">
+							<time datetime="2014-05-04T03:52:58+00:00">
+								2014-05-04 at 03:52							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Hej Mirko,</p>
+<p>I guess in your special case you have to use a font-editor (like Fontforge) and do the subsetting by hand for now. We&#8217;re might add per-character-subsetting to Fontie some day, but right now there&#8217;s just too much other stuff we have to code. It might be a good idea to follow <a href="http://facebook.com/flowyapps" rel="nofollow">Flowy Apps on Facebook</a> or <a href="http://twitter.com/flowyapps" rel="nofollow">on Twitter</a> to be informed, when new Fontie-feature arrive.</p>
+<p>Regarding your other question I recommend to read the <a href="http://www.smashingmagazine.com/2012/04/24/a-closer-look-at-font-rendering/" rel="nofollow">Smashing article on font rendering I&#8217;ve linked in the article</a>. This explains all the basics and the rest is just trial and error ;P</p>
+<p>Bai<br />
+Torben</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a class='comment-reply-link' href='/2013/11/how-to-create-perfect-web-fonts-in-3-steps/?replytocom=70510#respond' onclick='return addComment.moveForm( "div-comment-70510", "70510", "respond", "906" )' aria-label='Reply to Torben'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+		<li id="comment-70509" class="comment odd alt thread-even depth-1 parent">
+			<article id="div-comment-70509" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://0.gravatar.com/avatar/9330ec9fdbe45fa1548bbb36ef35a4bd?s=56&#038;d=mm&#038;r=g' srcset='https://0.gravatar.com/avatar/9330ec9fdbe45fa1548bbb36ef35a4bd?s=112&amp;d=mm&amp;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn"><a href='http://soa.utexas.edu' rel='external nofollow' class='url'>Amenity</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://pixelsvsbytes.com/2013/11/how-to-create-perfect-web-fonts-in-3-steps/#comment-70509">
+							<time datetime="2014-04-29T21:43:00+00:00">
+								2014-04-29 at 21:43							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Thanks for this fantastic explanation.  Are there times when the longer process has different results than Fontie?  I tried to use Fontie, but actually saw no improvement in my fonts.  (The thorn in my side is Firefox/Windows 7.)</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a class='comment-reply-link' href='/2013/11/how-to-create-perfect-web-fonts-in-3-steps/?replytocom=70509#respond' onclick='return addComment.moveForm( "div-comment-70509", "70509", "respond", "906" )' aria-label='Reply to Amenity'>Reply</a></div>			</article><!-- .comment-body -->
+<ol class="children">
+		<li id="comment-70511" class="comment byuser comment-author-letorbi bypostauthor even depth-2">
+			<article id="div-comment-70511" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://1.gravatar.com/avatar/714125bc3d4b4bea9cde4e04c8290194?s=56&#038;d=mm&#038;r=g' srcset='https://1.gravatar.com/avatar/714125bc3d4b4bea9cde4e04c8290194?s=112&amp;d=mm&amp;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn">Torben</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://pixelsvsbytes.com/2013/11/how-to-create-perfect-web-fonts-in-3-steps/#comment-70511">
+							<time datetime="2014-05-04T03:59:40+00:00">
+								2014-05-04 at 03:59							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Since Fontie got some updates after this article was written, it actually does even some more things than the ones described here in the article. Have you tried the different hinting-options? However, Fontie can just fix some general issues. If you want/need to fine-tune your font you should use a font-editor.</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a class='comment-reply-link' href='/2013/11/how-to-create-perfect-web-fonts-in-3-steps/?replytocom=70511#respond' onclick='return addComment.moveForm( "div-comment-70511", "70511", "respond", "906" )' aria-label='Reply to Torben'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+		<li id="comment-70543" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-70543" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://2.gravatar.com/avatar/8ff300b3905b9c3455a4071c51745e79?s=56&#038;d=mm&#038;r=g' srcset='https://2.gravatar.com/avatar/8ff300b3905b9c3455a4071c51745e79?s=112&amp;d=mm&amp;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn"><a href='http://www.anastasiadimitriadi.com' rel='external nofollow' class='url'>Anastasia</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://pixelsvsbytes.com/2013/11/how-to-create-perfect-web-fonts-in-3-steps/#comment-70543">
+							<time datetime="2014-12-16T11:34:02+00:00">
+								2014-12-16 at 11:34							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>The perfect article! Thank you so much!</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a class='comment-reply-link' href='/2013/11/how-to-create-perfect-web-fonts-in-3-steps/?replytocom=70543#respond' onclick='return addComment.moveForm( "div-comment-70543", "70543", "respond", "906" )' aria-label='Reply to Anastasia'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-70544" class="comment even thread-even depth-1">
+			<article id="div-comment-70544" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://2.gravatar.com/avatar/502737d62c601d4e06fa6afeae661403?s=56&#038;d=mm&#038;r=g' srcset='https://2.gravatar.com/avatar/502737d62c601d4e06fa6afeae661403?s=112&amp;d=mm&amp;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn">Bee</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://pixelsvsbytes.com/2013/11/how-to-create-perfect-web-fonts-in-3-steps/#comment-70544">
+							<time datetime="2014-12-18T17:33:24+00:00">
+								2014-12-18 at 17:33							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Thank you, ttfautohint has done a swell job of smoothing out the fonts!</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a class='comment-reply-link' href='/2013/11/how-to-create-perfect-web-fonts-in-3-steps/?replytocom=70544#respond' onclick='return addComment.moveForm( "div-comment-70544", "70544", "respond", "906" )' aria-label='Reply to Bee'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-70546" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-70546" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://1.gravatar.com/avatar/4325d4dd79966b99abe8965183909feb?s=56&#038;d=mm&#038;r=g' srcset='https://1.gravatar.com/avatar/4325d4dd79966b99abe8965183909feb?s=112&amp;d=mm&amp;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn">Verulam</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://pixelsvsbytes.com/2013/11/how-to-create-perfect-web-fonts-in-3-steps/#comment-70546">
+							<time datetime="2015-01-06T15:03:24+00:00">
+								2015-01-06 at 15:03							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>I&#8217;ve been using the Font Squirrel generator up to now; but Fontie seems to generate webfonts which look closer to the same font as installed locally on my PC, and across all browsers, without the need for text-shadow or other &#8216;tweaks&#8217; &#8211; well done! Two questions though:</p>
+<p>1) the Fontie generator defaults to &#8216;Windows GDI&#8217; as the hinting mode. Does this have any adverse impact on font rendering on Mac or Android machines?;</p>
+<p>2) will the fontsmoothie.js script work with any set of webfonts which include an SVG, or only those generated by Fontie? Incidentally, I seem to recall that Windows XP does use font smoothing in Internet Explorer, even if it is turned off in the system; but presumably not when other browsers are used. Unfortunately I no longer have any means of testing that!</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a class='comment-reply-link' href='/2013/11/how-to-create-perfect-web-fonts-in-3-steps/?replytocom=70546#respond' onclick='return addComment.moveForm( "div-comment-70546", "70546", "respond", "906" )' aria-label='Reply to Verulam'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+		
+	
+	
+							<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2013/11/how-to-create-perfect-web-fonts-in-3-steps/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="https://pixelsvsbytes.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+																			<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p>							<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" /></p>
+												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-describedby="form-allowed-tags" aria-required="true" required="required"></textarea></p>						<p class="form-allowed-tags" id="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </code></p>
+						<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='906' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="d8d96ebc00" /></p><!-- Subscribe to Comments Reloaded version 150428 --><!-- BEGIN: subscribe to comments reloaded --><p><label for='subscribe-reloaded'><input style='width:30px' type='checkbox' name='subscribe-reloaded' id='subscribe-reloaded' value='yes' /> Notify me of followup comments via e-mail. You can also <a href='https://pixelsvsbytes.com/comment-subscriptions?srp=906&amp;srk=83374e6ba041366e236680d2f1ad1f51&amp;sra=s'?phpMyAdmin=0ZRJj6JUwx3do5nBBGsib-MdEm7>subscribe</a> without commenting.</label></p><!-- END: subscribe to comments reloaded --><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="88"/></p>					</form>
+							</div><!-- #respond -->
+			
+</div><!-- .comments-area -->
+
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://pixelsvsbytes.com/2013/02/js-require-for-browsers-better-faster-stronger/" rel="prev"><span class="meta-nav" aria-hidden="true">Previous</span> <span class="screen-reader-text">Previous post:</span> <span class="post-title">JS require() for browsers &#8211; better, faster, stronger</span></a></div><div class="nav-next"><a href="https://pixelsvsbytes.com/2015/05/building-a-beaglebone-router/" rel="next"><span class="meta-nav" aria-hidden="true">Next</span> <span class="screen-reader-text">Next post:</span> <span class="post-title">Building a BeagleBone router</span></a></div></div>
+	</nav>
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+
+	</div><!-- .site-content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+		</div><!-- .site-info -->
+	</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+<script type='text/javascript' src='https://pixelsvsbytes.com/wp-content/plugins/akismet/_inc/form.js?ver=3.1.1'></script>
+<script type='text/javascript' src='https://pixelsvsbytes.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"https:\/\/pixelsvsbytes.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://pixelsvsbytes.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.1.2'></script>
+<script type='text/javascript' src='https://pixelsvsbytes.com/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js?ver=20141010'></script>
+<script type='text/javascript' src='https://pixelsvsbytes.com/wp-includes/js/comment-reply.min.js?ver=4.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://pixelsvsbytes.com/wp-content/themes/twentyfifteen/js/functions.js?ver=20150330'></script>
+
+</body>
+</html>

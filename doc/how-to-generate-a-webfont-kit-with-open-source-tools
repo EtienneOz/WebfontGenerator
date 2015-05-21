@@ -1,0 +1,211 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"b63f19ebdd","applicationID":"7108","transactionName":"dVYPRkZXWVkDRRdFXkVNEh1HUFpC","queueTime":6,"applicationTime":84,"agent":"js-agent.newrelic.com/nr-632.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):(o[e]||(o[e]=[]),void o[e].push(n))}var r=e("ee").create(),o={};n.exports=t,t.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=(e(2),window),f=u.document,s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+
+    <title>    how to generate a webfont kit with open source tools | koffeinfrei</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="9lUcf8TMxpBz1Nv09tMomeIsgA6g66lavehyFTiBYPY="/>
+
+    <link href="/stylesheets/application.css?1429042833" media="screen" rel="stylesheet" type="text/css">
+    <link href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/shThemeRDarkKoffeinfrei.css?1429042833" media="screen" rel="stylesheet" type="text/css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
+    <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript"></script>
+    <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shAutoloader.js" type="text/javascript"></script>
+    <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js" type="text/javascript"></script>
+    <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushRuby.js" type="text/javascript"></script>
+    <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushBash.js" type="text/javascript"></script>
+    <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushCss.js" type="text/javascript"></script>
+    <script src="/javascripts/modernizr-2.5.3.min.js?1429042833" type="text/javascript"></script>
+    <script src="/javascripts/rails.js?1429042833" type="text/javascript"></script>
+    <script src="/javascripts/init.js?1429042833" type="text/javascript"></script>
+
+    
+      <script src="/javascripts/common.js?1429042833" type="text/javascript"></script>
+  <script src="/javascripts/live-comment-preview.js?1429042833" type="text/javascript"></script>
+
+</head>
+<body>
+    <header>
+        <h1>koffeinfrei.<span>alexis reigel.</span></h1>
+
+        <nav>
+            <ul>
+                  <li><a href="/">log</a></li>
+                  <li><a href="/quotes">quotes</a></li>
+                  <li><a href="/pages/about">about</a></li>
+                  <li><a href="/pages/projects">projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div role="main" id="main">
+        <section>
+            <div class="post">
+    <h2><a href="/2012/08/06/how-to-generate-a-webfont-kit-with-open-source-tools">how to generate a webfont kit with open source tools</a></h2>
+<h3>posted by <cite>alexis reigel</cite> on august 06, 2012</h3>
+<p>There are some web based services that convert fonts to a webfont package, the most popular of which is the <a href="http://www.fontsquirrel.com/fontface/generator">fontsquirrel font-face generator</a>. For our <a href="http://www.metaflop.com">metaflop</a> project I was looking for a service api that i could call from within our application. Since i didn&#8217;t find one I was attempting to build the whole webfont generation by collecting tools that could do the job.</p>
+<h4>Font types</h4>
+<p>To create a webfont kit that works on all browsers we need to generate several different font types:</p>
+<ul>
+	<li><a href="http://en.wikipedia.org/wiki/Embedded_OpenType">eot</a>: IE</li>
+	<li><a href="http://en.wikipedia.org/wiki/Web_Open_Font_Format">woff</a>: Modern Browsers</li>
+	<li><a href="http://en.wikipedia.org/wiki/TTF">ttf</a>: Safari, Android, iOS</li>
+	<li><a href="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">svg</a>: Chrome &lt; 4, Legacy iOS</li>
+</ul>
+<h4>Tool chain</h4>
+<p>The following tools are required to generate all the needed font types. I assume that you have your font as otf. If you have a ttf, just switch <em>ttf</em> with <em>otf</em> in the following statements:</p>
+<ul>
+	<li><a href="http://fontforge.sourceforge.net">FontForge</a><br />
+  FontForge is primarily a visual outline font editor, but the tool <a href="http://fontforge.sourceforge.net/scripting-tutorial.html">can also be scripted</a> and used on the command line.<br />
+  Purpose: generates ttf, svg</li>
+</ul>
+The very simple FontForge script (<em>ttf-svg.pe</em>) looks like this:
+
+<pre class="brush: ruby">
+Open($1)
+Generate($1:r + ".ttf")
+Generate($1:r + ".svg")
+</pre>
+
+<pre class="brush: bash">
+# outputs font.ttf, font.svg
+$ fontforge -script ttf-svg.pe font.otf
+</pre>
+<ul>
+	<li><a href="http://people.mozilla.com/~jkew/woff">sfnt2woff</a><br />
+  Purpose: converts an otf to woff</li>
+</ul>
+<pre class="brush: bash">
+# outputs font.woff
+$ sfnt2woff font.otf
+</pre>
+<ul>
+	<li><a href="https://github.com/greyfont/ttf2eot">ttf2eot</a><br />
+  Purpose: converts a ttf to eog</li>
+</ul>
+<pre class="brush: ruby">
+$ ttf2eot font.ttf &gt; font.eot
+</pre>
+<h4><span class="caps">CSS</span></h4>
+<p>The css declaration is based on <a href="http://www.fontspring.com/blog/further-hardening-of-the-bulletproof-syntax">Fontspring&#8217;s bulletproof @font-face syntax</a> and is the same syntax as used by fontsquirrel.</p>
+<pre class="brush: css">
+@font-face {
+    font-family: 'YourFont';
+    src: url('YourFont.eot'); /* IE 9 Compatibility Mode */
+    src: url('YourFont.eot?#iefix') format('embedded-opentype'), /* IE &lt; 9 */
+         url('YourFont.woff') format('woff'), /* Firefox &gt;= 3.6, any other modern browser */
+         url('YourFont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('YourFont.svg#YourFont') format('svg'); /* Chrome &lt; 4, Legacy iOS */
+}
+</pre>
+<p>That&#8217;s it. Remember though that you should only convert fonts are legally eligible for web embedding.</p>
+<ul class="blog-controls">
+    <li class="comments"><a href="/2012/08/06/how-to-generate-a-webfont-kit-with-open-source-tools#comments">1 comment</a></li>
+    <li class="tags">tags: <a href="/webfont">webfont</a> <a href="/unix">unix</a> <a href="/linux">linux</a> <a href="/bash">bash</a> <a href="/terminal">terminal</a></li>
+</ul>
+
+    
+        <div class="contentarea">
+                <h3 class="comment">commented by <cite>Catherine</cite> on march 30, 2015</h3>
+<div class="comment"><p>Here is another popular <a href="https://everythingfonts.com/font-face">Webfont Generator</a>. <br />
+I use this often. Between fontsquirrel and everythingfonts generator the later is simplest you can get (one click) the former gives you lots of option if you are a pro.</p></div>
+
+        </div>
+        
+    
+    <form accept-charset="UTF-8" action="/2012/08/06/how-to-generate-a-webfont-kit-with-open-source-tools/comments" class="new_comment" id="new_comment" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"><input name="authenticity_token" type="hidden" value="9lUcf8TMxpBz1Nv09tMomeIsgA6g66lavehyFTiBYPY="></div>      <div>
+        <label for="comment_author">Name or <a href="http://openidexplained.com/">OpenID</a> (required)</label>
+        <input id="comment_author" name="comment[author]" size="30" type="text">
+        
+        <label for="comment_body">Comment (<a href="http://lesstile.rubyforge.org">lesstile enabled</a> - surround code blocks with ---)</label>
+        <textarea cols="40" id="comment_body" name="comment[body]" rows="8"></textarea>
+        
+        <input class="submit" name="commit" type="submit" value="Add Comment">
+      </div>
+</form></div>
+
+        </section>
+        <aside>
+            <figure>
+                  <h2>log categories</h2>
+                  <ul class="blog-navigation-tags">
+                      <li><a href="/ruby">ruby</a></li>
+                      <li><a href="/c%23">c#</a></li>
+                      <li><a href="/windows">windows</a></li>
+                      <li><a href="/?tag=.net">.net</a></li>
+                      <li><a href="/bash">bash</a></li>
+                      <li><a href="/linux">linux</a></li>
+                      <li><a href="/tool">tool</a></li>
+                      <li><a href="/winforms">winforms</a></li>
+                      <li><a href="/unix">unix</a></li>
+                      <li><a href="/terminal">terminal</a></li>
+                      <li><a href="/sinatra">sinatra</a></li>
+                      <li><a href="/mono">mono</a></li>
+                      <li><a href="/capistrano">capistrano</a></li>
+                      <li><a href="/console">console</a></li>
+                      <li><a href="/git">git</a></li>
+                      <li><a href="/ssh">ssh</a></li>
+                      <li><a href="/javascript">javascript</a></li>
+                      <li><a href="/bourbon">bourbon</a></li>
+                      <li><a href="/coffee%20break">coffee break</a></li>
+                      <li><a href="/java">java</a></li>
+                      <li><a href="/rails">rails</a></li>
+                      <li><a href="/webfont">webfont</a></li>
+                      <li><a href="/linq">linq</a></li>
+                      <li><a href="/firefox">firefox</a></li>
+                      <li><a href="/ubuntu">ubuntu</a></li>
+                      <li><a href="/scss">scss</a></li>
+                      <li><a href="/vim">vim</a></li>
+                      <li><a href="/rant">rant</a></li>
+                      <li><a href="/wpf">wpf</a></li>
+                      <li><a href="/minus">minus</a></li>
+                      <li><a href="/android">android</a></li>
+                      <li><a href="/type%20systems">type systems</a></li>
+                  </ul>
+            </figure>
+            <figure class="additional">
+                <h2>recent tweets</h2>
+                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/alexisreigel" height="500" data-widget-id="353028721470484480" data-chrome="noheader nofooter noborders noscrollbar transparent">Tweets by @alexisreigel</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </figure>
+            <figure class="additional">
+                <h2>random quote</h2>
+                <p>The beginning of knowledge is the discovery of something we do not understand.
+<br />Frank Herbert (1920 - 1986)</p>
+
+<p><a title="Quotes" href="http://www.koffeinfrei.org/killing-time/quotes">more</a></p>
+
+
+            </figure>
+        </aside>
+    </div>
+    <footer>
+        &copy; 2012-2015 by koffeinfrei | alexis reigel.
+    </footer>
+
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-30291141-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+     </script>
+</body>
+</html>
+
