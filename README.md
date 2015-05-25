@@ -1,5 +1,5 @@
 # WebfontGenerator
-A bash script to generate a webfont kit from otf, currently alpha version, for linux.
+A bash script to generate a webfont kit from otf or ttf for linux.
 
 # Dependencies
 Please apt-get those four dependencies:  
@@ -10,13 +10,13 @@ Please apt-get those four dependencies:
 
 # Usage
 To generate you webfont kit, follow these instructions :  
-1. put your otf file(s) in the `input` directory,  
+1. put your otf or ttf file(s) in the `input` directory,  
 2. `cd to/the/WebfontGenerator`  
 3. run `bash generator.bash` and voila! Check the output directory.
 
 # To do
 * ~~Allow multiple files input~~
-* Allow ttf input
+* ~~Allow ttf input~~
 * Associate a css stylesheet
 * ~~Use Scour to clean up svg~~
 
