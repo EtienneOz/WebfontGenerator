@@ -11,7 +11,7 @@ Please apt-get those four dependencies:
 # Usage
 To generate you webfont kit, follow these instructions :  
 1. put your otf or ttf file(s) in the `input` directory,  
-2. `cd to/the/WebfontGenerator`  
+2. `cd to/the/WebfontGeneratorDirectory`  
 3. run `bash generator.bash` and voila! Check the output directory.
 
 # To do
