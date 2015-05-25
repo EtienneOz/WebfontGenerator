@@ -71,4 +71,4 @@ done
 
 
 
-echo "TTF, OTF, EOT and WOFF was generated, see output directory :)"
+echo "TTF, OTF, EOT and WOFF were generated, see output directory :)"
