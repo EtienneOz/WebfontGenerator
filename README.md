@@ -53,7 +53,7 @@ webfontgenerator/
 		    font-A.(otf/ttf)
 		    font-B.(otf/ttf)
 		    font-C.(otf/ttf)
-		     ...
+		    ...
 ```
 
 Les noms des dossiers et des fichiers seront conservés pour la génération des fichiers
