@@ -44,7 +44,7 @@ respectant la hiérarchie suivante :
 ```
 webfontgenerator/
     input/
-        famille-1/
+	famille-1/
 	    font-A.(otf/ttf)
 	    font-B.(otf/ttf)
 	    font-C.(otf/ttf)
