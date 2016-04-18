@@ -49,13 +49,11 @@ webfontgenerator/
 	    font-B.(otf/ttf)
 	    font-C.(otf/ttf)
 	    ...
-	    
 	famille-2/
 	    font-A.(otf/ttf)
 	    font-B.(otf/ttf)
 	    font-C.(otf/ttf)
 	    ...
-	    
 	...
 ```
 
