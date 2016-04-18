@@ -45,15 +45,15 @@ respectant la hiérarchie suivante :
 webfontgenerator/
     input/
 	    famille-1/
-		font-A.(otf/ttf)
-		font-B.(otf/ttf)
-		font-C.(otf/ttf)
-		...
+		    font-A.(otf/ttf)
+		    font-B.(otf/ttf)
+		    font-C.(otf/ttf)
+		    ...
 	    famille-2/
-		font-A.(otf/ttf)
-		font-B.(otf/ttf)
-		font-C.(otf/ttf)
-		...
+		    font-A.(otf/ttf)
+		    font-B.(otf/ttf)
+		    font-C.(otf/ttf)
+		     ...
 ```
 
 Les noms des dossiers et des fichiers seront conservés pour la génération des fichiers
