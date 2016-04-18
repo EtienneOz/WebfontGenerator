@@ -24,7 +24,9 @@ Install those dependencies :
 
 
 
-`sudo apt-get install woff-tools fontforge eot-utils ttfautohint`
+```
+sudo apt-get install woff-tools fontforge eot-utils ttfautohint
+```
 
 Clone this repo on your computer
 
