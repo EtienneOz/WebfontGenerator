@@ -24,7 +24,7 @@ Install those dependencies :
 
 
 
-    sudo apt-get install woff-tools fontforge eot-utils ttfautohint
+`sudo apt-get install woff-tools fontforge eot-utils ttfautohint`
 
 Clone this repo on your computer
 
@@ -54,7 +54,7 @@ webfontgenerator/
 	    font-C.(otf/ttf)
 	    ...
 	    
-	    ...
+	...
 ```
 
 Les noms des dossiers et des fichiers seront conservés pour la génération des fichiers
@@ -70,4 +70,4 @@ Les fichiers sont générés dans le dossier output
 
 ## License
 
-
+This script is under GNU GENERAL PUBLIC LICENSE V2, see LICENSE file for more infos.
