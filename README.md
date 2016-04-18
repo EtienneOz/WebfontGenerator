@@ -1,19 +1,19 @@
 # webfontgenerator 
 
-## description
+## Description
 
 A bash script to generate a webfont kit (font files and css files) from otf or ttf.
 
-## ressources
+## Ressources
 
 EtienneOz/WebfontGenerator  
 https://github.com/EtienneOz/WebfontGenerator
 
-## previews
+## Previews
 
 ![webfontgenerator](previews/Capture d'écran - 17042016 - 20:28:48.png)
 
-## install
+## Install
 
 Install those dependencies :
 
@@ -22,13 +22,14 @@ Install those dependencies :
 - eot-utils
 - ttfautohint
 
+
     sudo apt-get install woff-tools fontforge eot-utils ttfautohint
 
 Clone this repo on your computer
 
-    sudo git clone https://github.com/emilegreis/WebfontGenerator.git
+    sudo git clone https://github.com/emilegreis/webfontgenerator.git
 
-You maybe need to pass executable mode on bash files
+You may need to pass executable mode on bash files
 
     sudo chmod +x webfontgenerator.bash clean_output.bash clean_input.bash
 
