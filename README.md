@@ -28,10 +28,6 @@ Install those dependencies :
 sudo apt-get install woff-tools fontforge eot-utils ttfautohint
 ```
 
-Clone this repo on your computer
-
-    sudo git clone https://github.com/emilegreis/webfontgenerator.git
-
 You may need to pass executable mode on bash files
 
     sudo chmod +x webfontgenerator/webfontgenerator.bash webfontgenerator/clean_output.bash webfontgenerator/clean_input.bash
