@@ -1,0 +1,10 @@
+
+/*LiberationSerif-Regular*/
+@font-face {
+    font-family: 'LiberationSerif-Regular';
+    src: url('LiberationSerif-Regular.eot'); /* IE 9 Compatibility Mode */
+    src: url('LiberationSerif-Regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+         url('LiberationSerif-Regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+         url('LiberationSerif-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('LiberationSerif-Regular.svg#LiberationSerif-Regular') format('svg'); /* Chrome < 4, Legacy iOS */
+    }

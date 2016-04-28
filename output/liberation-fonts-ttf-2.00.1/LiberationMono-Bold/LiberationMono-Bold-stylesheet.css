@@ -1,0 +1,10 @@
+
+/*LiberationMono-Bold*/
+@font-face {
+    font-family: 'LiberationMono-Bold';
+    src: url('LiberationMono-Bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('LiberationMono-Bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+         url('LiberationMono-Bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+         url('LiberationMono-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('LiberationMono-Bold.svg#LiberationMono-Bold') format('svg'); /* Chrome < 4, Legacy iOS */
+    }

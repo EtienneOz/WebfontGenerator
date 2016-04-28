@@ -1,0 +1,10 @@
+
+/*LiberationSerif-BoldItalic*/
+@font-face {
+    font-family: 'LiberationSerif-BoldItalic';
+    src: url('LiberationSerif-BoldItalic.eot'); /* IE 9 Compatibility Mode */
+    src: url('LiberationSerif-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+         url('LiberationSerif-BoldItalic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+         url('LiberationSerif-BoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('LiberationSerif-BoldItalic.svg#LiberationSerif-BoldItalic') format('svg'); /* Chrome < 4, Legacy iOS */
+    }

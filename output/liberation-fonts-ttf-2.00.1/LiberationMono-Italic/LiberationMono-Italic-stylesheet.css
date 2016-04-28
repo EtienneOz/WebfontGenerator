@@ -1,0 +1,10 @@
+
+/*LiberationMono-Italic*/
+@font-face {
+    font-family: 'LiberationMono-Italic';
+    src: url('LiberationMono-Italic.eot'); /* IE 9 Compatibility Mode */
+    src: url('LiberationMono-Italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+         url('LiberationMono-Italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+         url('LiberationMono-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('LiberationMono-Italic.svg#LiberationMono-Italic') format('svg'); /* Chrome < 4, Legacy iOS */
+    }

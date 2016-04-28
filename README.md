@@ -4,11 +4,6 @@
 
 A bash script to generate a webfont kit (font files and css files) from otf or ttf.
 
-## Ressources
-
-EtienneOz/WebfontGenerator  
-https://github.com/EtienneOz/WebfontGenerator
-
 ## Previews
 
 ![webfontgenerator](previews/Capture d'écran - 17042016 - 20:28:48.png)

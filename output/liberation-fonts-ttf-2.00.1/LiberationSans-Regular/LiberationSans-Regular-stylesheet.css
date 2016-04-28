@@ -1,0 +1,10 @@
+
+/*LiberationSans-Regular*/
+@font-face {
+    font-family: 'LiberationSans-Regular';
+    src: url('LiberationSans-Regular.eot'); /* IE 9 Compatibility Mode */
+    src: url('LiberationSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+         url('LiberationSans-Regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+         url('LiberationSans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('LiberationSans-Regular.svg#LiberationSans-Regular') format('svg'); /* Chrome < 4, Legacy iOS */
+    }

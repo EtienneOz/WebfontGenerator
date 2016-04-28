@@ -1,0 +1,10 @@
+
+/*LiberationSans-Italic*/
+@font-face {
+    font-family: 'LiberationSans-Italic';
+    src: url('LiberationSans-Italic.eot'); /* IE 9 Compatibility Mode */
+    src: url('LiberationSans-Italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+         url('LiberationSans-Italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+         url('LiberationSans-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('LiberationSans-Italic.svg#LiberationSans-Italic') format('svg'); /* Chrome < 4, Legacy iOS */
+    }
